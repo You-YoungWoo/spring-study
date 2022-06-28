@@ -15,6 +15,7 @@ public class SpringConfig {
 
     private final MemberRepository memberRepository;
 
+    // DI 설정
     @Autowired
     public SpringConfig(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
